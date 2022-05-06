@@ -1,4 +1,4 @@
-```java
+
 public class Solution {
     public static void main(String[] args) {
         sum(2, 2);
@@ -9,3 +9,4 @@ public class Solution {
         System.out.print(c);
     }
 }
+```java
