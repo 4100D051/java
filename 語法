@@ -1,0 +1,22 @@
+```java
+java 四個P :
+
+package public protected private
+
+---------------------------------------------------------------
+
+this用法 :
+
+class CMyClass
+{
+    public int var=10;    //全域變數
+    public void show()
+    {
+        int var=20;                     //區域變數
+        System.out.println("區域變數var=" + var);
+        System.out.println("成員變數var=" + this.var);//運用this就可以使用全域變數的變數
+    }
+
+---------------------------------------------------------------
+
+int[10] num1;配置一個可以存10個整數的資料
